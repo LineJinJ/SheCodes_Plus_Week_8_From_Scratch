@@ -1,0 +1,11 @@
+# To add the HTML and CSS for forecast
+
+# To add the API call to get the forecast
+
+# To replace the dummy content with real data
+
+# HTML
+
+# API
+
+# JS

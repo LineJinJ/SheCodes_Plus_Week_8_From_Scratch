@@ -1,0 +1,105 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #fff;
+  border: 1px solid #815a8f;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 20px;
+}
+
+h1 {
+  color: #9862ae;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #d97d97;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li.first-letter {
+  text-transform: capitalize;
+}
+
+img {
+  color: #d97d97;
+  font-size: 16px;
+}
+
+small {
+  color: #9862ae;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  float: left;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: #815a8f;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-app-wrapper .active {
+  color: #815a8f;
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #815a8f;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.7;
+}
+
+.weather-forecast-temperature {
+  font-size: 13px;
+}
